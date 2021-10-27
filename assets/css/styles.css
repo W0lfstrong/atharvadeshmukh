@@ -1289,6 +1289,10 @@ img{
     padding-bottom: 1rem;
 }
 
+.formbutton{
+    border: #FFF;
+}
+
 .footer__container{
     grid-template-columns: repeat(3, 1fr);
 }
