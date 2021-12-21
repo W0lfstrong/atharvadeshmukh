@@ -366,7 +366,7 @@ img{
 
 button {
     position: relative;
-    padding: 10px 50px;
+    padding: 10px 25px 10px 25px;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
