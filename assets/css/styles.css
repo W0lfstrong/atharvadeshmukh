@@ -364,7 +364,7 @@ img{
 
 /*==================== BUTTONS ====================*/
 
-.button-contact {
+button {
     position: relative;
     padding: 20px 50px;
     display: block;
@@ -376,16 +376,16 @@ img{
     border: none;
    }
    
-   .button-contact span {
+   button span {
     position: relative;
     color: #fff;
-    font-size: 20px;
+    fot-size: 20px;
     font-family: Arial;
     letter-spacing: 8px;
     z-index: 1;
    }
    
-   .button-contact .liquid {
+   button .liquid {
     position: absolute;
     top: -80px;
     left: 0;
@@ -396,8 +396,8 @@ img{
     transition: .5s;
    }
    
-   .button-contact .liquid::after,
-   .button-contact .liquid::before {
+   button .liquid::after,
+   button .liquid::before {
     content: '';
     width: 200%;
     height: 200%;
@@ -408,19 +408,19 @@ img{
     background: #fff;
    }
    
-   .button-contact .liquid::before {
+   button .liquid::before {
     border-radius: 45%;
     background: rgba(20, 20, 20, 1);
     animation: animate 5s linear infinite;
    }
    
-   .button-contact .liquid::after {
+   button .liquid::after {
     border-radius: 40%;
     background: rgba(20, 20, 20, .5);
     animation: animate 10s linear infinite;
    }
    
-   .button:hover .liquid {
+   button:hover .liquid {
     top: -120px;
    }
    
