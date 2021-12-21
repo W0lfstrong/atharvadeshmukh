@@ -368,7 +368,7 @@ button {
     background-color: #fff;
     z-index: 1;
     position: relative;
-    width: 2rem;
+    width: 10rem;
     overflow: hidden;
     color: var(--first-color);
     border: 3px solid var(--first-color);
