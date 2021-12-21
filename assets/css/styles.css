@@ -364,7 +364,7 @@ img{
 
 /*==================== BUTTONS ====================*/
 
-button {
+button-contact {
     background-color: #fff;
     z-index: 1;
     position: relative;
@@ -381,7 +381,7 @@ button {
     transition: transform .3s ease;
    }
    
-   button::before {
+   button-contact::before {
     content: '';
     inset: 0 0 0 0;
     margin: auto;
@@ -394,15 +394,15 @@ button {
     transition: all .7s ease;
    }
    
-   button:active {
+   button-contact:active {
     transform: scale(.9);
    }
    
-   button:hover {
+   button-contact:hover {
     color: #fff;
    }
    
-   button:hover:before {
+   button-contact:hover:before {
     height: 200px;
     width: 200px;
     border-radius: 0;
